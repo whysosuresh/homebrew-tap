@@ -1,8 +1,8 @@
 # Written by github.com/whysosuresh/capsjump's release workflow from
 # packaging/capsjump.rb.in on every release. Edit the template there, not this file.
 cask "capsjump" do
-  version "0.7.2"
-  sha256 "75824effafffec108dcc834aa42fa91069229482db698ce9088d735e6c9f475a"
+  version "0.8.0"
+  sha256 "97cf4fc34dabeec4ef19a3ad3a351ab1e8abbae26e531c91f3aebf961d63f6c6"
 
   url "https://github.com/whysosuresh/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip"
   name "CapsJump"
@@ -18,10 +18,7 @@ cask "capsjump" do
   uninstall quit: "ai.stigmer.capsjump"
 
   caveats <<~EOS
-    Grant CapsJump its permissions once (they survive upgrades):
-      capsjump setup
-    Then write your keys and sites, and check them:
-      capsjump init
-      capsjump check
+    Open CapsJump to finish setting up; its Welcome window walks you through it:
+      open -a CapsJump
   EOS
 end
