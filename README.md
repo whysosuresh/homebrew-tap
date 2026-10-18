@@ -4,7 +4,7 @@ Homebrew tap for Suresh Attaluri's tools.
 
 ## CapsJump
 
-Caps Lock shortcuts for apps, Chrome accounts, windows and links on macOS ([site](https://capsjump.com/), [source](https://github.com/whysosuresh/capsjump)).
+Caps Lock finally has a job: one key to the right app, window or tab, in the Chrome profile you choose. For macOS ([site](https://capsjump.com/), [source](https://github.com/whysosuresh/capsjump)).
 
 ```bash
 brew install --cask whysosuresh/tap/capsjump
