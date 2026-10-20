@@ -1,8 +1,8 @@
 # Written by github.com/whysosuresh/capsjump's release workflow from
 # packaging/capsjump.rb.in on every release. Edit the template there, not this file.
 cask "capsjump" do
-  version "0.9.6"
-  sha256 "6d74725636164548304e0d111095a3fae4747e1088e0697aba3ea8813fec0d00"
+  version "0.9.7"
+  sha256 "4e4d69aeb7c010f0ef78c5d7849e5d7d30044ecb0482009677e314760e52f231"
 
   url "https://github.com/whysosuresh/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip"
   name "CapsJump"
