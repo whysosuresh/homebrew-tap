@@ -1,12 +1,12 @@
 # Written by github.com/whysosuresh/capsjump's release workflow from
 # packaging/capsjump.rb.in on every release. Edit the template there, not this file.
 cask "capsjump" do
-  version "0.9.9"
-  sha256 "0bf1ad624b0da8bc8ac6664e758076a04752d50ae4704f273f8f12d59bdcae10"
+  version "0.9.10"
+  sha256 "c59c2981ad384914a845e67e4a6152678106042cc947204203a87650b25c189c"
 
   url "https://github.com/whysosuresh/capsjump/releases/download/v#{version}/CapsJump-#{version}.zip"
   name "CapsJump"
-  desc "Caps Lock shortcuts for Chrome profiles, apps, windows and links"
+  desc "Caps Lock shortcuts for Chrome and Brave profiles, apps, windows and links"
   homepage "https://capsjump.com/"
 
   depends_on macos: :ventura
